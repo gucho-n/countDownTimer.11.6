@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D17E41282546FAA0001F9DE5 /* horror.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17E41272546FAA0001F9DE5 /* horror.jpg */; };
+		D1AF39B7254C091F00900935 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AF39B6254C091F00900935 /* secondViewController.swift */; };
+		D1CBEB5C254D7EC300979BA8 /* horrormoon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1CBEB5B254D7EC300979BA8 /* horrormoon.jpg */; };
 		D1E71AC125469E7A00160CA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E71AC025469E7A00160CA8 /* AppDelegate.swift */; };
 		D1E71AC325469E7A00160CA8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E71AC225469E7A00160CA8 /* SceneDelegate.swift */; };
 		D1E71AC525469E7A00160CA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E71AC425469E7A00160CA8 /* ViewController.swift */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D17E41272546FAA0001F9DE5 /* horror.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = horror.jpg; sourceTree = "<group>"; };
+		D1AF39B6254C091F00900935 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		D1CBEB5B254D7EC300979BA8 /* horrormoon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = horrormoon.jpg; sourceTree = "<group>"; };
 		D1E71ABD25469E7A00160CA8 /* countDownTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = countDownTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1E71AC025469E7A00160CA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1E71AC225469E7A00160CA8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +85,8 @@
 		D1E71AB425469E7A00160CA8 = {
 			isa = PBXGroup;
 			children = (
+				D17E41272546FAA0001F9DE5 /* horror.jpg */,
+				D1CBEB5B254D7EC300979BA8 /* horrormoon.jpg */,
 				D1E71ABF25469E7A00160CA8 /* countDownTimer */,
 				D1E71AD625469E7F00160CA8 /* countDownTimerTests */,
 				D1E71AE125469E7F00160CA8 /* countDownTimerUITests */,
@@ -106,6 +114,7 @@
 				D1E71AC925469E7E00160CA8 /* Assets.xcassets */,
 				D1E71ACB25469E7F00160CA8 /* LaunchScreen.storyboard */,
 				D1E71ACE25469E7F00160CA8 /* Info.plist */,
+				D1AF39B6254C091F00900935 /* secondViewController.swift */,
 			);
 			path = countDownTimer;
 			sourceTree = "<group>";
@@ -232,7 +241,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1E71ACD25469E7F00160CA8 /* LaunchScreen.storyboard in Resources */,
+				D17E41282546FAA0001F9DE5 /* horror.jpg in Resources */,
 				D1E71ACA25469E7E00160CA8 /* Assets.xcassets in Resources */,
+				D1CBEB5C254D7EC300979BA8 /* horrormoon.jpg in Resources */,
 				D1E71AC825469E7A00160CA8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1AF39B7254C091F00900935 /* secondViewController.swift in Sources */,
 				D1E71AC525469E7A00160CA8 /* ViewController.swift in Sources */,
 				D1E71AC125469E7A00160CA8 /* AppDelegate.swift in Sources */,
 				D1E71AC325469E7A00160CA8 /* SceneDelegate.swift in Sources */,
