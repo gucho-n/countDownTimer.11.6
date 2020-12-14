@@ -13,8 +13,7 @@ class ViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDataSour
     //ピッカーに使用するグローバル宣言
 //    　ピッカーにカウントする数字１
         var firstCount = [Int]()
-//    　ピッカーにカウントする数字２
-        var secondCount = [Int]()
+
     
 //        ピッカーに値を返した時の数字
         var firstLabel = UILabel()
@@ -164,7 +163,7 @@ func makePicker() {
         //ピッカービュー本体
         makePicker()
        
-       
+       print(tagNo)
     }
     func pickerView(){
         var rect = CGRect(x: 0, y: self.view.frame.height * 2 / 3, width: self.view.frame.width, height: self.view.frame.height / 3)
@@ -242,7 +241,8 @@ func makePicker() {
             drawBirthDay.font = UIFont.systemFont(ofSize: self.view.frame.maxX / 14)
             drawBirthDay.tag = tagNo["nowAge"]!
             footer.addSubview(drawBirthDay)
-            
+         
+        
     }
     //textFieldで現在の年齢を入力させる
     func DrawLabel(){
